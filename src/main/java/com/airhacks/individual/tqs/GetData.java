@@ -50,6 +50,7 @@ public class GetData {
     public static List<Integer> weather_type = new ArrayList<Integer>();
     public static List<Integer> windSpeed = new ArrayList<Integer>();
     public static List<String> wind_Direction = new ArrayList<String>();
+    public static List<String> day = new ArrayList<String>();
     
     private static Cache<String, String> cache = new Cache<>();
 
@@ -73,9 +74,6 @@ public class GetData {
         return GetData.data;
     }
 
-    //buscar e guardar numa estrutre, fazer metodo para retornar estrutura.
-    // e ao dar print e no rest_service, la chamamos o metodo para retornar e mostrar
-    //e o rest vai ser chamado esse metodo que da post do html no servlet
     public static void sendLiveRequest() throws IOException {
           
         //GetData.city_code
@@ -104,47 +102,24 @@ public class GetData {
         
         System.out.println("--------------------------------------------");
         
-        System.out.println(data);
-        System.out.println(data.length());
         
         if(cache.get(GetData.getCityCode()) == null){
-            System.out.println("ola");
-            System.out.println(GetData.getCityCode());
             cache.put(GetData.city_code, data);
-            System.out.println("adeus");
         }
-        
-        System.out.println("gay");
         System.out.println("GET: " + cache.get(GetData.getCityCode()));
         
         System.out.println("------------------------------------------------------------");
-
-        //List<String> list = new ArrayList<String>();
         
         JSONArray array = myResponse.getJSONArray("data");
         for (int i = 0; i < array.length(); i++) {
-            //list.add(array.getJSONObject(i).toString());
             tMin.add(array.getJSONObject(i).getString("tMin"));
             tMax.add(array.getJSONObject(i).getString("tMax"));
             prob_prec.add(array.getJSONObject(i).getString("precipitaProb"));
             weather_type.add(array.getJSONObject(i).getInt("idWeatherType"));
             windSpeed.add(array.getJSONObject(i).getInt("classWindSpeed"));
-            wind_Direction.add(array.getJSONObject(i).getString("predWindDir"));  
+            wind_Direction.add(array.getJSONObject(i).getString("predWindDir"));
+            day.add(array.getJSONObject(i).getString("forecastDate"));
         }
-        for (String x : tMax) {
-            System.out.println("tMin: " + x);
-        }
-        
-        System.out.println("size: " +tMin.size());
-        
-        //Prob_prec, Tipo_Tempo, tMin, tMax, WindSpeed
-        
-        System.out.println("HERE tMin");
-        for (int x : weather_type) {
-            System.out.println(x);
-        }
-        
-        System.out.println(GetJsonResponse().length());
         
        
     }
@@ -159,6 +134,10 @@ public class GetData {
     
     public List<String> get_prob_prec(){
         return prob_prec;
+    }
+    
+    public List<String> getDate(){
+        return day;
     }
      
     public List<String> get_tMin(){

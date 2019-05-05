@@ -1,0 +1,52 @@
+
+Kcom.airhacks.individual.tqs.Cache#raw(Ljava/lang/Object;)Ljava/lang/Object;Å
+wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Cache.java\ \("3*–
+2Å
+wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Cache.java_ _(¨©
+Å
+wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Cache.java_ _("&
+%2 com.airhacks.individual.tqs.Hash"@com.airhacks.individual.tqs.Element#getValue()Ljava/lang/Object;*-
++
+node#com.airhacks.individual.tqs.Element2
+getValue()ÖÇ
+Å
+wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Cache.java_ _(-
+%3V"=com.airhacks.individual.tqs.Hash#getValue()Ljava/lang/Object;*(
+&
+%2 com.airhacks.individual.tqs.Hash2
+getValue()"è
+Å
+wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Cache.java_ _(.	
+
+%3V*Ñ
+3Å
+wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Cache.java]# ](&÷
+”
+Å
+wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Cache.java]# ](&
+%0java.util.HashMap"__id*.*,#
+!com.airhacks.individual.tqs.Cache"
+mapØ¨
+Å
+wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Cache.java]# ](/)
+%1#com.airhacks.individual.tqs.Element";java.util.HashMap#get(Ljava/lang/Object;)Ljava/lang/Object;*
+
+%0java.util.HashMap*
+
+
+keyK2get(Ljava/lang/Object;)Á
+‰
+Å
+wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Cache.java] ](0+
+node#com.airhacks.individual.tqs.Element"__id*+
+)
+%1#com.airhacks.individual.tqs.Element*
+2
+1*ñ
+1Å
+wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Cache.javaa a("å
+Å
+wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Cache.javaa a(
+"":
+keyKB%#
+!com.airhacks.individual.tqs.Cache

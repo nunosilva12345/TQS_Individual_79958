@@ -19,22 +19,7 @@ public class Cache<K, V> {
     public Cache() {
         this(DEFAULT_MAX_SIZE);
     }
-
-    public V get(K key) {
-        Element<Hash<K, V>> elem = map.get(key);
-        if (elem != null) {
-            remove(elem);
-            add(elem);
-            return elem.getValue().getValue();
-        } else {
-            return null;
-        }
-    }
-
-    public List<K> keys() {
-        return new ArrayList<>(map.keySet());
-    }
-
+    
     public void put(K key, V value) {
         Element<Hash<K, V>> elem = map.get(key);
         if (elem != null) {
@@ -48,25 +33,28 @@ public class Cache<K, V> {
             map.put(key, add(key, value));
         }
     }
-
+    
     public void remove(K key) {
         Element<Hash<K, V>> elem = map.remove(key);
-        if (elem != null) {
-            remove(elem);
-        }
+        remove(elem);
     }
-
+    
     public int size() {
         return map.size();
     }
 
-    protected V raw(K key) {
-        Element<Hash<K, V>> node = map.get(key);
-        if (node != null) {
-            return node.getValue().getValue();
+    public V get(K key) {
+        Element<Hash<K, V>> elem = map.get(key);
+        if (elem != null) {
+            remove(elem);
+            add(elem);
+            return elem.getValue().getValue();
+        } else {
+            return null;
         }
-        return null;
     }
+
+    
 
     private void add(Element<Hash<K, V>> node) {
         if (end != null) {
@@ -100,41 +88,13 @@ public class Cache<K, V> {
         elem.setPrevious(null).setNext(null);
     }
 
-    private static class Element<V> {
-
-        private V valor;
-        private Element<V> x = null;
-        private Element<V> y = null;
-
-        public Element(V valor) {
-            this.valor = valor;
+    
+    protected V raw(K key) {
+        Element<Hash<K, V>> node = map.get(key);
+        if (node != null) {
+            return node.getValue().getValue();
         }
-
-        public Element<V> getPrevious() {
-            return x;
-        }
-
-        public Element<V> setPrevious(Element<V> x) {
-            this.x = x;
-            return this;
-        }
-
-        public Element<V> getNext() {
-            return y;
-        }
-
-        public Element<V> setNext(Element<V> y) {
-            this.y = y;
-            return this;
-        }
-
-        public V getValue() {
-            return valor;
-        }
-
-        public Element<V> setValue(V valor) {
-            this.valor = valor;
-            return this;
-        }
+        return null;
     }
+
 }

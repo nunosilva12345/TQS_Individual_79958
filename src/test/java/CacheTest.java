@@ -58,9 +58,12 @@ public class CacheTest {
         assertEquals("a", cache.get("123")); //existe o primeiro
         assertEquals(1,cache.size());
         
+        cache.put("345", "b");
+        assertEquals(2, cache.size());
+        
         cache.remove("123");
         assertEquals(null, cache.get("123"));//ja nao existe
-        assertEquals(0, cache.size());
+        assertEquals(1, cache.size());
     }
     
     @Test

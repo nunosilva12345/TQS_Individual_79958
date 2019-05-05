@@ -41,8 +41,6 @@ public class MyServlet extends HttpServlet {
         try{
 
             String cidade = request.getParameter("cidade");
-            out.println("enter");
-            
             /* TODO output your page here. You may use following sample code. */
             out.println("<!DOCTYPE html>");
             out.println("<html>");
@@ -50,23 +48,11 @@ public class MyServlet extends HttpServlet {
             out.println("<title>Meteorologia</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Cidade" + request.getParameter("cidade")   + "</h1>");
+            out.println("<h1>Cidade: " + request.getParameter("cidade")   + "</h1>");
 
-            //aqui <h1> meteoroglia paraa 3 dias, e chamar funcao que faz e imprimi isso, fechar h1. ----> esse que vem é que é o do post
-            
-            //chamar funcao que recebe primeiro cidade e vai buscar dadaos e guarda no map
-            //depois e que chamo o de baixo porque o mapa esta feito
-            out.println("<h1>tentar das display dos dados: </h1>");
-            out.println("<h1>agora chamar primeira funcao com nome da cidade para o switch case</h1>");
-            out.println("<h1>" + city.returnCityCode(cidade) + "</h1>");
             String city_code  = String.valueOf(city.returnCityCode(cidade));
-            out.println("<h1>1 +" + city_code + "</h1>");
-            
-            out.println("<h1>" + data.setCity_Code(city_code) + "</h1>");
-            out.println("<h1>2 "+ "</h1>");
-            out.println("porque nao entra na linha em baixo?");
+            data.setCity_Code(city_code);
             out.println("<h1>" + rest.doGetAsHtml(cidade) + "</h1>");
-            out.println("depois dessa tal linha");
             out.println("</body>");
             out.println("</html>");
         }finally{

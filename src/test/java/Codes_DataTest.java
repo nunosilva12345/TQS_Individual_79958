@@ -33,6 +33,9 @@ public class Codes_DataTest {
     }
     
     //verificar se que recebe o codigo respetiva à cidade de aveiro e substituir na url, ficaria com o resultado esperado
+    //ter atencao ao conteudo no "myServlet"
+    //este teste pode falhar, ter atencao e verificar se a variavel URL_FORMAT esta assim definida(linha a baixo)
+    //url_format = BASE_URL + GetData.city_code + FINAL_URL;
     @Test
     public void checkUrlTest() throws IOException {
         data.setCity_Code("1010500");
@@ -41,15 +44,6 @@ public class Codes_DataTest {
         System.out.println(data.getUrl());
         assertEquals(data.getUrl(),testUrl);
     }
-    
-    /*
-    //verificar se a resposta recebida tem o tamanho maior que diferente de 0 (ou seja, ter recebido algo)     
-   @Test
-    public void checkSize_JsonResponseTest() throws IOException {
-        int sizeAnswer = data.GetJsonResponse().length(); 
-         assertTrue( sizeAnswer > 0);      
-    }
-    */
 
     //verificar se os elementos de meteorologia que foram guardados na lista que no futuro irao servir para mostrar ao utlizador
     //verificar se nenhum elemento das lista é vazio, ou seja, se consegui ir buscar os dados corretamente
@@ -85,6 +79,11 @@ public class Codes_DataTest {
             assertTrue(null != item);
             assertNotNull("Elemento da lista é null" + item);
         };
+        
+        for(String item: data.getDate()){
+            assertTrue(null != item);
+            assertNotNull("Elemento da lista é null" + item);
+        };
     }
       
     @Test
@@ -95,6 +94,7 @@ public class Codes_DataTest {
         assertEquals(5,data.get_tMax().size(),0);
         assertEquals(5,data.get_windSpeed().size(),0);
         assertEquals(5,data.get_weatherTtype().size(),0);
+        assertEquals(5,data.getDate().size(),0);
     }
     
     //verificar se o metodo de ver a "velocidade" do vento resulta eficazmente
@@ -119,6 +119,7 @@ public class Codes_DataTest {
         assertEquals(1020500,Codes.returnCityCode("Beja"));
         assertEquals(0,Codes.returnCityCode("Cidade nao existente"));
     }
+    
     
     
     @AfterClass

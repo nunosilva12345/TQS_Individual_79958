@@ -18,16 +18,17 @@ public class Element<V> {
         public Element(V valor) {
             this.valor = valor;
         }
-
-        public Element<V> getPrevious() {
-            return x;
-        }
-
-        public Element<V> setPrevious(Element<V> x) {
-            this.x = x;
+        
+        public Element<V> setValue(V valor) {
+            this.valor = valor;
             return this;
         }
-
+        
+        public V getValue() {
+            return valor;
+        }
+        
+        
         public Element<V> getNext() {
             return y;
         }
@@ -37,12 +38,13 @@ public class Element<V> {
             return this;
         }
 
-        public V getValue() {
-            return valor;
+        public Element<V> getPrevious() {
+            return x;
         }
 
-        public Element<V> setValue(V valor) {
-            this.valor = valor;
+        public Element<V> setPrevious(Element<V> x) {
+            this.x = x;
             return this;
         }
+        
     }
