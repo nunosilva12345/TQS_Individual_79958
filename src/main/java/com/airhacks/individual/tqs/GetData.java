@@ -57,23 +57,20 @@ public class GetData {
         return GetData.cityCode;
     }
     
-    public static String GetJsonResponse(){
+    public static String getJsonResponse(){
         GetData.data = data;
         return GetData.data;
     }
 
     public static void sendLiveRequest() throws IOException {
           
-        //GetData.city_code
-        //1121400
-        //GetData.setCity_Code("1121400");
+        
         urlFormat = BASE_URL + GetData.cityCode + FINAL_URL;
         URL obj = new URL(urlFormat);
         HttpURLConnection con = (HttpURLConnection) obj.openConnection();
         // optional default is GET
         con.setRequestMethod("GET");
         //add request header
-        int responseCode = con.getResponseCode();
         BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
         String inputLine;
         StringBuffer json = new StringBuffer();

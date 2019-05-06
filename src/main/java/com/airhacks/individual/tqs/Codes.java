@@ -12,7 +12,6 @@ public class Codes {
     private static String vento = "";
 
     public Codes() {
-        throw new UnsupportedOperationException();
     }
     
     public String getCidade(){

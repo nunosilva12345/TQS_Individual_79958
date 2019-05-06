@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet(name = "Meteorologia", urlPatterns = {"/Meteorologia"})
 //@WebServlet("/Meteorologia")
 public class MyServlet extends HttpServlet {
-    private static Rest_Service rest = new Rest_Service();
+    private static RestService rest = new RestService();
     private static GetData data;
     private static Codes city;
 
@@ -39,7 +39,6 @@ public class MyServlet extends HttpServlet {
         try{
 
             String cidade = request.getParameter("cidade");
-            /* TODO output your page here. You may use following sample code. */
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
@@ -48,8 +47,8 @@ public class MyServlet extends HttpServlet {
             out.println("<body>");
             out.println("<h1>Cidade: " + request.getParameter("cidade") + "</h1>");
 
-            String city_code  = String.valueOf(city.returnCityCode(cidade));
-            data.setCityCode(city_code);
+            String cityCode  = String.valueOf(city.returnCityCode(cidade));
+            GetData.setCityCode(cityCode);
             out.println("<h1>" + rest.doGetAsHtml(cidade) + "</h1>");
             out.println("</body>");
             out.println("</html>");
