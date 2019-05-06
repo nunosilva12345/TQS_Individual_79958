@@ -1,10 +1,5 @@
 package com.airhacks.individual.tqs;
 
-
-/**
- *
- * @author nunos
- */
 public class Codes {
 
     private static String cidade;

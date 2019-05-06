@@ -4,7 +4,6 @@ package com.airhacks.individual.tqs;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import static java.lang.System.out;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -79,7 +78,7 @@ public class MyServlet extends HttpServlet {
             processRequest(request, response);
             // code that throws an Exception
         } catch (Exception e) {
-            throw new ServletException(e);
+            throw new ServletException(e); //...
         }
     }
 
@@ -94,15 +93,15 @@ public class MyServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        
+   
         try {
             processRequest(request, response);
             // code that throws an Exception
         } catch (Exception e) {
-            throw new ServletException(e);
+            throw new ServletException(e); //...
         }
     }
-        
+     
     /**
      * Returns a short description of the servlet.
      *

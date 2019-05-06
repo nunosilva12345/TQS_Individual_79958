@@ -116,8 +116,7 @@ public class RestService {
         data.getWeatherTtype().clear();
         data.getWindSpeed().clear();
         data.getWindDirection().clear();
-        String html_response = "<html>" + "<title>" + cidade + "</title>" + "<body>" + "<h1>" + "DATA:" + skeleton + "<span>" + "</h1>" + "</body>" + "</html>";
-        return html_response;
-
+        return "<html>" + "<title>" + cidade + "</title>" + "<body>" + "<h1>" + "DATA:" + skeleton + "<span>" + "</h1>" + "</body>" + "</html>";
+        
     }
 }
