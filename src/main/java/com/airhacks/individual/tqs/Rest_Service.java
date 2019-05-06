@@ -110,6 +110,14 @@ public class Rest_Service {
                 + "\n"
                 + "</body>\n"
                 + "</html>";
+        
+        data.getDate().clear();
+        data.get_prob_prec().clear();
+        data.get_tMax().clear();
+        data.get_tMin().clear();
+        data.get_weatherTtype().clear();
+        data.get_windSpeed().clear();
+        data.get_wind_Direction().clear();
         String html_response = "<html>" + "<title>" + cidade + "</title>" + "<body>" + "<h1>" + "DATA:" + skeleton + "<span>" + "</h1>" + "</body>" + "</html>";
         return html_response;
 

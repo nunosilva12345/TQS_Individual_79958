@@ -46,11 +46,12 @@ public class MyServlet extends HttpServlet {
             out.println("<title>Meteorologia</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Cidade: " + request.getParameter("cidade")   + "</h1>");
+            out.println("<h1>Cidade: " + cidade   + "</h1>");
 
             String city_code  = String.valueOf(city.returnCityCode(cidade));
             data.setCity_Code(city_code);
-            out.println("<h1>" + rest.doGetAsHtml(cidade) + "</h1>");
+            String table_answer = rest.doGetAsHtml(cidade);
+            out.println("<h1>" + table_answer + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }finally{
@@ -76,7 +77,12 @@ public class MyServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        processRequest(request, response);
+        try {
+            processRequest(request, response);
+            // code that throws an Exception
+        } catch (Exception e) {
+            throw new ServletException(e);
+        }
     }
 
     /**
@@ -90,7 +96,12 @@ public class MyServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
+        try {
+            processRequest(request, response);
+            // code that throws an Exception
+        } catch (Exception e) {
+            throw new ServletException(e);
+        }
 
     }
         

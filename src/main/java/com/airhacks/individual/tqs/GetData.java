@@ -37,13 +37,13 @@ public class GetData {
     private static String data_extracted;
     public static final String BASE_URL = "http://api.ipma.pt/open-data/forecast/meteorology/cities/daily/";  //falta isto {globalIdLocal}.json";
     public static final String FINAL_URL = ".json";
-    public final static List<String> tMin = new ArrayList<String>();
-    public final static List<String> tMax = new ArrayList<String>();
-    public final static List<String> prob_prec = new ArrayList<String>();
-    public final static List<Integer> weather_type = new ArrayList<Integer>();
-    public final static List<Integer> windSpeed = new ArrayList<Integer>();
-    public final static List<String> wind_Direction = new ArrayList<String>();
-    public final static List<String> day = new ArrayList<String>();
+    protected final static List<String> tMin = new ArrayList<String>();
+    protected final static List<String> tMax = new ArrayList<String>();
+    protected final static List<String> prob_prec = new ArrayList<String>();
+    protected final static List<Integer> weather_type = new ArrayList<Integer>();
+    protected final static List<Integer> windSpeed = new ArrayList<Integer>();
+    protected final static List<String> wind_Direction = new ArrayList<String>();
+    protected final static List<String> day = new ArrayList<String>();
     
     private static Cache<String, String> cache = new Cache<>();
 

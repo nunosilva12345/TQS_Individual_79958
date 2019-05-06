@@ -1,68 +1,0 @@
-
-Kcom.airhacks.individual.tqs.Cache#get(Ljava/lang/Object;)Ljava/lang/Object;ˆ
-~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Cache.java, ,("3*ó
-2ˆ
-~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Cache.java/ /(Â
-¿
-ˆ
-~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Cache.java/ /(
-
-%2void"Pcom.airhacks.individual.tqs.Cache#remove(Lcom/airhacks/individual/tqs/Element;)V*%#
-!com.airhacks.individual.tqs.Cache*-
-+
-elem#com.airhacks.individual.tqs.Element¿
-¼
-ˆ
-~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Cache.java0 0(
-
-%3void"Mcom.airhacks.individual.tqs.Cache#add(Lcom/airhacks/individual/tqs/Element;)V*%#
-!com.airhacks.individual.tqs.Cache*-
-+
-elem#com.airhacks.individual.tqs.Element³°
-ˆ
-~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Cache.java1 1("&
-%4 com.airhacks.individual.tqs.Hash"@com.airhacks.individual.tqs.Element#getValue()Ljava/lang/Object;*-
-+
-elem#com.airhacks.individual.tqs.Element2
-getValue()Œ‰
-ˆ
-~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Cache.java1 1(-
-%5V"=com.airhacks.individual.tqs.Hash#getValue()Ljava/lang/Object;*(
-&
-%4 com.airhacks.individual.tqs.Hash2
-getValue()"–
-ˆ
-~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Cache.java1 1(.	
-
-%5V* 
-3ˆ
-~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Cache.java-# -(&Ý
-Ú
-ˆ
-~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Cache.java-# -(&
-%0java.util.HashMap"__id*.*,#
-!com.airhacks.individual.tqs.Cache"
-map¶³
-ˆ
-~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Cache.java-# -(/)
-%1#com.airhacks.individual.tqs.Element";java.util.HashMap#get(Ljava/lang/Object;)Ljava/lang/Object;*
-
-%0java.util.HashMap*
-
-
-keyK2get(Ljava/lang/Object;)î
-ë
-ˆ
-~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Cache.java- -(0+
-elem#com.airhacks.individual.tqs.Element"__id*+
-)
-%1#com.airhacks.individual.tqs.Element*
-2
-1*¤
-1ˆ
-~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Cache.java3 3("“
-ˆ
-~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Cache.java3 3(
-"":
-keyKB%#
-!com.airhacks.individual.tqs.Cache
