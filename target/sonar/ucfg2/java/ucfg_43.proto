@@ -1,19 +1,18 @@
 
-_com.airhacks.individual.tqs.Hash#setValue(Ljava/lang/Object;)Lcom/airhacks/individual/tqs/Hash;á
-}C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Hash.java; ;("1*ì
+]com.airhacks.individual.tqs.Hash#setKey(Ljava/lang/Object;)Lcom/airhacks/individual/tqs/Hash;á
+}C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Hash.javaD D("1*è
 1á
-}C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Hash.java< <(–
-Õ
+}C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Hash.javaE E(Ã
+…
 á
-}C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Hash.java< <(-"
- com.airhacks.individual.tqs.Hash"
-value"__id*
+}C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Hash.javaE E(+"
+ com.airhacks.individual.tqs.Hash"
+key"__id*
 
-
-valueV"∞
+
+keyK"∞
 á
-}C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Hash.java= =($"
- com.airhacks.individual.tqs.Hash:
-
-valueVB$"
+}C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Hash.javaF F($"
+ com.airhacks.individual.tqs.Hash:
+keyKB$"
  com.airhacks.individual.tqs.Hash
