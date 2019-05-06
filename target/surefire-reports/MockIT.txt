@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: MockIT
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.356 sec <<< FAILURE!
-initializationError(MockIT)  Time elapsed: 0.012 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.248 sec <<< FAILURE!
+initializationError(MockIT)  Time elapsed: 0.004 sec  <<< ERROR!
 org.mockito.exceptions.base.MockitoException: 
 
 No tests found in MockIT

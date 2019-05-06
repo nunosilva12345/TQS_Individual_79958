@@ -26,8 +26,26 @@ import org.mockito.junit.MockitoJUnitRunner;
  * @author nunos
  */
 //@RunWith(EasyMockRunner.class)
+
+/*
 @RunWith(MockitoJUnitRunner.class)
 
+
+    /*
+        Assertions.assertTrue(code.returnCityCode("Aveiro") == expected);
+        EasyMock.verify(code);
+        
+        Assertions.assertEquals(expected, code.getTempo());
+        */
+        
+        /*
+        String expected = "Fraco";
+        EasyMock.expect(Codes.idWindSpeed(1).matches(expected));
+        EasyMock.replay(code);
+
+        Assertions.assertEquals(expected, code.getTempo());
+        */
+/*
 public class MockIT{
 
     //@Mock
@@ -87,29 +105,9 @@ public class MockIT{
 
     }
     
-    /*
-        Assertions.assertTrue(code.returnCityCode("Aveiro") == expected);
-        EasyMock.verify(code);
-        
-        Assertions.assertEquals(expected, code.getTempo());
-        */
+    
         
         /*
-        String expected = "Fraco";
-        EasyMock.expect(Codes.idWindSpeed(1).matches(expected));
-        EasyMock.replay(code);
-
-        Assertions.assertEquals(expected, code.getTempo());
-        */
-        
-        /*
-        EasyMock.expect(r.Converted("EUR","USD",1.0)).andReturn(EUR_converter_USD);
-        EasyMock.replay(r);
-        
-        assertTrue(r.Converted("EUR","USD",1.0) == EUR_converter_USD);
-        EasyMock.expect(market.getPrice("EBAY")).andReturn(42.00);
-        EasyMock.replay(market);
-
         ---------------------------------------------------------------------------------
         
         Stock ebayStock = new Stock("EBAY", 2);
@@ -119,4 +117,4 @@ public class MockIT{
         EasyMock.verify(market);
         */
 
-}
+//}
