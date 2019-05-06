@@ -1,8 +1,5 @@
 package com.airhacks.individual.tqs;
-/**
- *
- * @author nunos
- */
+
 
 import java.util.HashMap;
 

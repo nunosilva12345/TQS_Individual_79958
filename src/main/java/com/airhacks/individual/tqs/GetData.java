@@ -13,10 +13,7 @@ import java.util.List;
 import javax.ejb.Singleton;
 import org.json.JSONArray;
 import org.json.JSONObject;
-/**
- *
- * @author nunos
- */
+
 
 
 @Singleton

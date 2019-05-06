@@ -10,12 +10,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- *
- * @author nunos
- */
+
 @WebServlet(name = "Meteorologia", urlPatterns = {"/Meteorologia"})
-//@WebServlet("/Meteorologia")
 public class MyServlet extends HttpServlet {
     private static RestService rest = new RestService();
     private static GetData data;

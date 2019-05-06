@@ -62,7 +62,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="MockIT" name="initializationError" time="0.008">
+  <testcase classname="MockIT" name="initializationError" time="0.012">
     <error message="
 
 No tests found in MockIT
