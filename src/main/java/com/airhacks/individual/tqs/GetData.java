@@ -32,18 +32,18 @@ public class GetData {
     private static String dataExtracted;
     public static final String BASE_URL = "http://api.ipma.pt/open-data/forecast/meteorology/cities/daily/";
     public static final String FINAL_URL = ".json";
-    protected final static  List<String> tMin = new ArrayList<String>();
-    protected final static List<String> tMax = new ArrayList<String>();
-    protected final static List<String> prob_prec = new ArrayList<String>();
-    protected final static List<Integer> weather_type = new ArrayList<Integer>();
-    protected final static List<Integer> windSpeed = new ArrayList<Integer>();
-    protected final static List<String> wind_Direction = new ArrayList<String>();
-    protected final static List<String> day = new ArrayList<String>();
+    protected static final  List<String> tMin = new ArrayList<>();
+    protected static final List<String> tMax = new ArrayList<>();
+    protected static final List<String> prob_prec = new ArrayList<>();
+    protected static final List<Integer> weather_type = new ArrayList<>();
+    protected static final List<Integer> windSpeed = new ArrayList<>();
+    protected static final List<String> wind_Direction = new ArrayList<>();
+    protected static final List<String> day = new ArrayList<>();
     
     private static Cache<String, String> cache = new Cache<>();
 
 
-    public static String setCity_Code(String cityCode) {
+    public static String setCityCode(String cityCode) {
         GetData.cityCode = cityCode;
         return GetData.cityCode;
     }
@@ -74,8 +74,6 @@ public class GetData {
         con.setRequestMethod("GET");
         //add request header
         int responseCode = con.getResponseCode();
-        System.out.println("\nSending 'GET' request to URL : " + urlFormat);
-        System.out.println("Response Code : " + responseCode);
         BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
         String inputLine;
         StringBuffer json = new StringBuffer();
@@ -85,18 +83,13 @@ public class GetData {
         in.close();
 
         JSONObject myResponse = new JSONObject(json.toString());
-        System.out.println("result after Reading JSON Response");
         data = myResponse.optString("data");
-        
-        System.out.println("--------------------------------------------");
-        
-        
+     
         if(cache.get(GetData.getCityCode()) == null){
             cache.put(GetData.cityCode, data);
         }
-        System.out.println("GET: " + cache.get(GetData.getCityCode()));
         
-        System.out.println("------------------------------------------------------------");
+        System.out.println("GET: " + cache.get(GetData.getCityCode()));
         
         JSONArray array = myResponse.getJSONArray("data");
         for (int i = 0; i < array.length(); i++) {
@@ -116,11 +109,11 @@ public class GetData {
         return dataExtracted;
     }
     
-    public List<String> get_tMax(){
+    public List<String> getTmax(){
         return tMax;
     } 
     
-    public List<String> get_prob_prec(){
+    public List<String> getProbPrec(){
         return prob_prec;
     }
     
@@ -128,19 +121,19 @@ public class GetData {
         return day;
     }
      
-    public List<String> get_tMin(){
+    public List<String> getTmin(){
         return tMin;
     }
     
-    public List<Integer> get_weatherTtype(){
+    public List<Integer> getWeatherTtype(){
         return weather_type;
     }
     
-    public List<Integer> get_windSpeed(){
+    public List<Integer> getWindSpeed(){
         return windSpeed;
     }
     
-    public List<String> get_wind_Direction(){
+    public List<String> getWindDirection(){
         return wind_Direction;
     }
     

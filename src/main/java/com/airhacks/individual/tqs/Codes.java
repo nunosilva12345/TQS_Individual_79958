@@ -8,8 +8,8 @@ package com.airhacks.individual.tqs;
 public class Codes {
 
     private static String cidade;
-    private String tempo;
-    private static String vento;
+    private static String tempo = "";
+    private static String vento = "";
 
     public Codes() {
         throw new UnsupportedOperationException();
@@ -28,7 +28,6 @@ public class Codes {
     }
     
     public static String idWindSpeed(int x) {
-        String vento = " ";
         switch (x) {
             case 99:
                 vento ="--";
@@ -54,7 +53,6 @@ public class Codes {
 
     
     public static String idWeatherType(int x) {
-        String tempo = " ";
         switch (x) {
             case 0:
                 tempo = "Sem informações";

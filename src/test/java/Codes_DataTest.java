@@ -38,7 +38,7 @@ public class Codes_DataTest {
     //url_format = BASE_URL + GetData.city_code + FINAL_URL;
     @Test
     public void checkUrlTest() throws IOException {
-        data.setCity_Code("1010500");
+        data.setCityCode("1010500");
         data.sendLiveRequest();  
         String testUrl = "http://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1010500.json";
         System.out.println(data.getUrl());
@@ -50,32 +50,32 @@ public class Codes_DataTest {
     @Test
     public void NullTest(){
         
-        for(Integer item: data.get_weatherTtype()){
+        for(Integer item: data.getWeatherTtype()){
             assertTrue(null != item);
             assertNotNull("Elemento da lista é null" + item);
         };
         
-        for(Integer item: data.get_windSpeed()){
+        for(Integer item: data.getWindSpeed()){
             assertTrue(null != item);
             assertNotNull("Elemento da lista é null" + item);
         };
         
-        for(String item: data.get_tMax()){
+        for(String item: data.getTmax()){
             assertTrue(null != item);
             assertNotNull("Elemento da lista é null" + item);
         };
         
-        for(String item: data.get_prob_prec()){
+        for(String item: data.getProbPrec()){
             assertTrue(null != item);
             assertNotNull("Elemento da lista é null" + item);
         };
         
-        for(String item: data.get_wind_Direction()){
+        for(String item: data.getWindDirection()){
             assertTrue(null != item);
             assertNotNull("Elemento da lista é null" + item);
         };
         
-        for(String item: data.get_tMin()){
+        for(String item: data.getTmin()){
             assertTrue(null != item);
             assertNotNull("Elemento da lista é null" + item);
         };
@@ -88,12 +88,12 @@ public class Codes_DataTest {
       
     @Test
     public void SizeTest(){
-        assertEquals(5,data.get_prob_prec().size(),0);
-        assertEquals(5,data.get_tMin().size(),0);
-        assertEquals(5,data.get_wind_Direction().size(),0);
-        assertEquals(5,data.get_tMax().size(),0);
-        assertEquals(5,data.get_windSpeed().size(),0);
-        assertEquals(5,data.get_weatherTtype().size(),0);
+        assertEquals(5,data.getProbPrec().size(),0);
+        assertEquals(5,data.getTmin().size(),0);
+        assertEquals(5,data.getWindDirection().size(),0);
+        assertEquals(5,data.getTmax().size(),0);
+        assertEquals(5,data.getWindSpeed().size(),0);
+        assertEquals(5,data.getWeatherTtype().size(),0);
         assertEquals(5,data.getDate().size(),0);
     }
     

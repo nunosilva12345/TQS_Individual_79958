@@ -68,43 +68,43 @@ public class Rest_Service {
                 + "  </tr>\n"
                 + "  <tr>\n"
                 + "    <td>" + data.getDate().get(0) +"</td>\n"
-                + "    <td>" + Codes.idWeatherType(data.get_weatherTtype().get(0)) +"<span style=\"float:right;\"><i class=\"fa fa-toggle-on\"></i></span></td>\n"
-                + "    <td>" + "tMin: " + data.get_tMin().get(0) + "    tMax: " + data.get_tMax().get(0)  + "</td>\n"
-                + "    <td>"+ data.get_prob_prec().get(0) + "</td>\n"
-                + "    <td>" + data.get_wind_Direction().get(0) + "</td>\n"
-                + "    <td>" + Codes.idWindSpeed(data.get_windSpeed().get(0))+ "</td>\n"
+                + "    <td>" + Codes.idWeatherType(data.getWeatherTtype().get(0)) +"<span style=\"float:right;\"><i class=\"fa fa-toggle-on\"></i></span></td>\n"
+                + "    <td>" + "tMin: " + data.getTmin().get(0) + "    tMax: " + data.getTmax().get(0)  + "</td>\n"
+                + "    <td>"+ data.getProbPrec().get(0) + "</td>\n"
+                + "    <td>" + data.getWindDirection().get(0) + "</td>\n"
+                + "    <td>" + Codes.idWindSpeed(data.getWindSpeed().get(0))+ "</td>\n"
                 + "  </tr>\n"
                 + "  <tr>\n"
                 + "    <td>"+ data.getDate().get(1) + "</td>\n"
-                + "    <td>" + Codes.idWeatherType(data.get_weatherTtype().get(1)) +"</td>\n"
-                + "    <td>" + "tMin: " + data.get_tMin().get(1) + "    tMax: " + data.get_tMax().get(1)  + "</td>\n"
-                + "    <td>"+ data.get_prob_prec().get(1) + "<i class=\"fa fa-tint low\" aria-hidden=\"true\"></i></td>\n"
-                + "    <td>" + data.get_wind_Direction().get(1) + "</td>\n"
-                + "    <td>" + Codes.idWindSpeed(data.get_windSpeed().get(1))+ "</td>\n"
+                + "    <td>" + Codes.idWeatherType(data.getWeatherTtype().get(1)) +"</td>\n"
+                + "    <td>" + "tMin: " + data.getTmin().get(1) + "    tMax: " + data.getTmax().get(1)  + "</td>\n"
+                + "    <td>"+ data.getProbPrec().get(1) + "<i class=\"fa fa-tint low\" aria-hidden=\"true\"></i></td>\n"
+                + "    <td>" + data.getWindDirection().get(1) + "</td>\n"
+                + "    <td>" + Codes.idWindSpeed(data.getWindSpeed().get(1))+ "</td>\n"
                 + "  </tr>\n"
                 + "  <tr>\n"
                 + "    <td>"+ data.getDate().get(2) + "</td>\n"
-                + "    <td>" + Codes.idWeatherType(data.get_weatherTtype().get(2)) + "</td>\n"
-                + "    <td>" + "tMin: " + data.get_tMin().get(2) + "    tMax: " + data.get_tMax().get(2)  + "</td>\n"
-                + "    <td>"+ data.get_prob_prec().get(2) + "</td>\n"
-                + "    <td>" + data.get_wind_Direction().get(2) + "</td>\n"
-                + "    <td>" + Codes.idWindSpeed(data.get_windSpeed().get(2))+ "</td>\n"
+                + "    <td>" + Codes.idWeatherType(data.getWeatherTtype().get(2)) + "</td>\n"
+                + "    <td>" + "tMin: " + data.getTmin().get(2) + "    tMax: " + data.getTmax().get(2)  + "</td>\n"
+                + "    <td>"+ data.getProbPrec().get(2) + "</td>\n"
+                + "    <td>" + data.getWindDirection().get(2) + "</td>\n"
+                + "    <td>" + Codes.idWindSpeed(data.getWindSpeed().get(2))+ "</td>\n"
                 + "  </tr>\n"
                 + "  <tr>\n"
                 + "    <td>"+ data.getDate().get(3) + "</td>\n"
-                + "    <td>" + Codes.idWeatherType(data.get_weatherTtype().get(3)) + "</td>\n"
-                + "    <td>" + "tMin: " + data.get_tMin().get(3) + "    tMax: " + data.get_tMax().get(3)  + "</td>\n"
-                + "    <td>"+ data.get_prob_prec().get(3) + "</td>\n"
-                + "    <td>" + data.get_wind_Direction().get(3) + "</td>\n"
-                + "    <td>" + Codes.idWindSpeed(data.get_windSpeed().get(3))+ "</td>\n"
+                + "    <td>" + Codes.idWeatherType(data.getWeatherTtype().get(3)) + "</td>\n"
+                + "    <td>" + "tMin: " + data.getTmin().get(3) + "    tMax: " + data.getTmax().get(3)  + "</td>\n"
+                + "    <td>"+ data.getProbPrec().get(3) + "</td>\n"
+                + "    <td>" + data.getWindDirection().get(3) + "</td>\n"
+                + "    <td>" + Codes.idWindSpeed(data.getWindSpeed().get(3))+ "</td>\n"
                 + "  </tr>\n"
                 + "  <tr>\n"
                 + "    <td>"+ data.getDate().get(4) + "</td>\n"
-                + "    <td>" + Codes.idWeatherType(data.get_weatherTtype().get(4)) + "</td>\n"
-                + "    <td>" + "tMin: " + data.get_tMin().get(4) + "    tMax: " + data.get_tMax().get(4)  + "</td>\n"
-                + "    <td>"+ data.get_prob_prec().get(4) + "</td>\n"
-                + "    <td>" + data.get_wind_Direction().get(4) + "</td>\n"
-                + "    <td>" + Codes.idWindSpeed(data.get_windSpeed().get(4))+ "</td>\n"
+                + "    <td>" + Codes.idWeatherType(data.getWeatherTtype().get(4)) + "</td>\n"
+                + "    <td>" + "tMin: " + data.getTmin().get(4) + "    tMax: " + data.getTmax().get(4)  + "</td>\n"
+                + "    <td>"+ data.getProbPrec().get(4) + "</td>\n"
+                + "    <td>" + data.getWindDirection().get(4) + "</td>\n"
+                + "    <td>" + Codes.idWindSpeed(data.getWindSpeed().get(4))+ "</td>\n"
                 + "  </tr>\n"
                 + "</table>\n"
                 + "\n"
@@ -112,12 +112,12 @@ public class Rest_Service {
                 + "</html>";
         
         data.getDate().clear();
-        data.get_prob_prec().clear();
-        data.get_tMax().clear();
-        data.get_tMin().clear();
-        data.get_weatherTtype().clear();
-        data.get_windSpeed().clear();
-        data.get_wind_Direction().clear();
+        data.getProbPrec().clear();
+        data.getTmax().clear();
+        data.getTmin().clear();
+        data.getWeatherTtype().clear();
+        data.getWindSpeed().clear();
+        data.getWindDirection().clear();
         String html_response = "<html>" + "<title>" + cidade + "</title>" + "<body>" + "<h1>" + "DATA:" + skeleton + "<span>" + "</h1>" + "</body>" + "</html>";
         return html_response;
 

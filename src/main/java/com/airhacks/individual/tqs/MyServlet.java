@@ -49,7 +49,7 @@ public class MyServlet extends HttpServlet {
             out.println("<h1>Cidade: " + request.getParameter("cidade") + "</h1>");
 
             String city_code  = String.valueOf(city.returnCityCode(cidade));
-            data.setCity_Code(city_code);
+            data.setCityCode(city_code);
             out.println("<h1>" + rest.doGetAsHtml(cidade) + "</h1>");
             out.println("</body>");
             out.println("</html>");

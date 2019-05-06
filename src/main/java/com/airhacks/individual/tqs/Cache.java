@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class Cache<K, V> {
 
-    public final static int DEFAULT_MAX_SIZE = 15;
+    public static final int DEFAULT_MAX_SIZE = 15;
 
     private HashMap<K, Element<Hash<K, V>>> mapa = new HashMap<>();
     private Element<Hash<K, V>> start;
