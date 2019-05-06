@@ -1,164 +1,164 @@
 
-Dcom.airhacks.individual.tqs.Codes#idWeatherType(I)Ljava/lang/String;Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.java9 9(&"2*œ
-24Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaQ Q(ø
-º
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaR R(+
+Dcom.airhacks.individual.tqs.Codes#idWeatherType(I)Ljava/lang/String;à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.java9 9(&"2*›
+24à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaQ Q(∆
+√
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaR R(+
 tempojava.lang.String"__id*
 Aguaceiros fracos*
-1*Ã
-25Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaN N(º
-π
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaO O((
+1*⁄
+25à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaN N(√
+¿
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaO O((
 tempojava.lang.String"__id*
 Sem Aguaceiros*
-1*€
-26Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaK K(À
-»
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaL L(6
+1*È
+26à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaK K(“
+œ
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaL L(6
 tempojava.lang.String"__id*!
 C√©u nublado por nuvens altas*
-1*’
-27Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaH H(≈
-¬
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaI I(1
+1*„
+27à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaH H(Ã
+…
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaI I(1
 tempojava.lang.String"__id*
 Muito nublado/encoberto*
-1*“
-28Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaE E(¬
-ø
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaF F(.
+1*‡
+28à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaE E(…
+∆
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaF F(.
 tempojava.lang.String"__id*
 Parcialmente Neblado*
-1*À
-29Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaB B(ª
-∏
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaC C('
+1*Ÿ
+29à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaB B(¬
+ø
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaC C('
 tempojava.lang.String"__id*
 Pouco nublado*
-1*»
-30Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.java? ?(∏
-µ
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.java@ @(#
+1*÷
+30à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.java? ?(ø
+º
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.java@ @(#
 tempojava.lang.String"__id*
 
 C√©u limpo*
-1*œ
-31Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.java< <(ø
-º
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.java= =()
+1*›
+31à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.java< <(∆
+√
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.java= =()
 tempojava.lang.String"__id*
 Sem informa√ß√µes*
-1*≈
-10Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.java{ {(µ
-≤
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.java| |(!
+1*”
+10à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.java{ {(º
+π
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.java| |(!
 tempojava.lang.String"__id*	
 Granizo*
-1*”
-11Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javax x(√
-¿
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javay y(/
+1*·
+11à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javax x( 
+«
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javay y(/
 tempojava.lang.String"__id*
 Aguaceiros e trovoada*
-1*∆
-12Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javau u(∂
-≥
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javav v("
+1*‘
+12à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javau u(Ω
+∫
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javav v("
 tempojava.lang.String"__id*
 
 Trovoada*
-1*¬
-13Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javar r(≤
-Ø
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javas s(
+1*–
+13à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javar r(π
+∂
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javas s(
 tempojava.lang.String"__id*
 Neve*
-1*À
-14Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javao o(ª
-∏
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javap p('
+1*Ÿ
+14à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javao o(¬
+ø
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javap p('
 tempojava.lang.String"__id*
 Nuvens baixas*
-1*≈
-15Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javal l(µ
-≤
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javam m(!
+1*”
+15à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javal l(º
+π
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javam m(!
 tempojava.lang.String"__id*	
 Neblina*
-1*∆
-16Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javai i(∂
-≥
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaj j("
+1*‘
+16à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javai i(Ω
+∫
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaj j("
 tempojava.lang.String"__id*
 
 Chuvisco*
-1*’
-17Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaf f(≈
-¬
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javag g(1
+1*„
+17à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaf f(Ã
+…
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javag g(1
 tempojava.lang.String"__id*
 Periodos de chuva forte*
-1*’
-18Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javac c(≈
-¬
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javad d(1
+1*„
+18à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javac c(Ã
+…
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javad d(1
 tempojava.lang.String"__id*
 Periodos de chuva fraca*
-1*œ
-19Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.java` `(ø
-º
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaa a(+
+1*›
+19à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.java` `(∆
+√
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaa a(+
 tempojava.lang.String"__id*
 Periodos de chuva*
-1*Ø
-1É
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaî î("£
-É
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaî î(
+1*Ω
+1ä
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaî î("™
+ä
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaî î(
 
-tempojava.lang.String*´
-2Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.java: :(Ø
-¨
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.java: :(
+tempojava.lang.String*π
+2à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.java: :(∂
+≥
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.java: :(
 tempojava.lang.String"__id*
  *p
 24
@@ -190,93 +190,93 @@ wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\jav
 20
 21
 22
-23*√
-3É
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaê ê(≤
-Ø
-É
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaë ë(
+23*—
+3ä
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaê ê(π
+∂
+ä
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaë ë(
 tempojava.lang.String"__id*
 --*
-1*»
-4É
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaç ç(∑
-¥
-É
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaé é(!
+1*÷
+4ä
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaç ç(æ
+ª
+ä
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaé é(!
 tempojava.lang.String"__id*	
 Nublado*
-1*…
-5É
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaä ä(∏
-µ
-É
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaã ã("
+1*◊
+5ä
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaä ä(ø
+º
+ä
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaã ã("
 tempojava.lang.String"__id*
 
 Nevoeiro*
-1*‚
-6É
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaá á(—
-Œ
-É
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaà à(;
+1*
+6ä
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaá á(ÿ
+’
+ä
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaà à(;
 tempojava.lang.String"__id*%#
 !Ceu com periodos de muito nublado*
-1*ÿ
-7É
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaÑ Ñ(«
-ƒ
-É
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaÖ Ö(1
+1*Ê
+7ä
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaÑ Ñ(Œ
+À
+ä
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaÖ Ö(1
 tempojava.lang.String"__id*
 Nebulosidade convectiva*
-1*—
-8É
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaÅ Å(¿
-Ω
-É
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaÇ Ç(*
+1*ﬂ
+8ä
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaÅ Å(«
+ƒ
+ä
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaÇ Ç(*
 tempojava.lang.String"__id*
 Chuva e trovoada*
-1*¬
-9Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.java~ ~(≥
-∞
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.java (
+1*–
+9à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.java~ ~(∫
+∑
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.java (
 tempojava.lang.String"__id*	
 Geada*
-1*…
-20Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.java] ](π
-∂
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.java^ ^(%
+1*◊
+20à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.java] ](¿
+Ω
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.java^ ^(%
 tempojava.lang.String"__id*
 Chuva forte*
-1*“
-21Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaZ Z(¬
-ø
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.java[ [(.
+1*‡
+21à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaZ Z(…
+∆
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.java[ [(.
 tempojava.lang.String"__id*
 Chuva fraca/chuvisco*
-1*√
-22Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaW W(≥
-∞
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaX X(
+1*—
+22à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaW W(∫
+∑
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaX X(
 tempojava.lang.String"__id*	
 Chuva*
-1*œ
-23Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaT T(ø
-º
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Codes.javaU U(+
+1*›
+23à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaT T(∆
+√
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Codes.javaU U(+
 tempojava.lang.String"__id*
 Aguaceiros fortes*
 1:

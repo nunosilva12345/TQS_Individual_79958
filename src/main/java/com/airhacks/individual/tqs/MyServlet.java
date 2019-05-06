@@ -1,8 +1,6 @@
 package com.airhacks.individual.tqs;
 
 
-//@WebServlet(urlPatterns = {"/MyServlet"})
-
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -20,9 +18,9 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet(name = "Meteorologia", urlPatterns = {"/Meteorologia"})
 //@WebServlet("/Meteorologia")
 public class MyServlet extends HttpServlet {
-    private Rest_Service rest = new Rest_Service();
-    private GetData data;
-    private Codes city;
+    private static Rest_Service rest = new Rest_Service();
+    private static GetData data;
+    private static Codes city;
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>

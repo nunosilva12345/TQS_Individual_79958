@@ -7,26 +7,19 @@ package com.airhacks.individual.tqs;
  */
 // necessary components are imported
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
+
 import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
-import java.util.Set;
+;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.annotation.PostConstruct;
 import javax.ejb.Singleton;
-import jdk.nashorn.internal.parser.JSONParser;
 import org.json.JSONArray;
 import org.json.JSONObject;
 /**
@@ -44,13 +37,13 @@ public class GetData {
     private static String data_extracted;
     public static final String BASE_URL = "http://api.ipma.pt/open-data/forecast/meteorology/cities/daily/";  //falta isto {globalIdLocal}.json";
     public static final String FINAL_URL = ".json";
-    public static List<String> tMin = new ArrayList<String>();
-    public static List<String> tMax = new ArrayList<String>();
-    public static List<String> prob_prec = new ArrayList<String>();
-    public static List<Integer> weather_type = new ArrayList<Integer>();
-    public static List<Integer> windSpeed = new ArrayList<Integer>();
-    public static List<String> wind_Direction = new ArrayList<String>();
-    public static List<String> day = new ArrayList<String>();
+    public final static List<String> tMin = new ArrayList<String>();
+    public final static List<String> tMax = new ArrayList<String>();
+    public final static List<String> prob_prec = new ArrayList<String>();
+    public final static List<Integer> weather_type = new ArrayList<Integer>();
+    public final static List<Integer> windSpeed = new ArrayList<Integer>();
+    public final static List<String> wind_Direction = new ArrayList<String>();
+    public final static List<String> day = new ArrayList<String>();
     
     private static Cache<String, String> cache = new Cache<>();
 
@@ -156,20 +149,7 @@ public class GetData {
         return wind_Direction;
     }
     
-    @PostConstruct
-    public void init(){
-        try {
-            sendLiveRequest();
-        } catch (IOException ex) {
-            Logger.getLogger(GetData.class.getName()).log(Level.SEVERE, null, ex);
-        }
-    }
     
-// sendLiveRequest() function is executed
-    public static void main(String[] args) throws IOException {    
-        sendLiveRequest();
-        new BufferedReader(new InputStreamReader(System.in)).readLine();
-    }
 }
 
 //http://localhost:8080/Individual/webresources/Meteorologia?cidade=aveiro

@@ -1,0 +1,7 @@
+organization=nunosilva12345-github
+projectKey=nunosilva12345_TQS_Individual_79958
+serverUrl=https://sonarcloud.io
+serverVersion=7.8.0.24466
+dashboardUrl=https://sonarcloud.io/dashboard?id=nunosilva12345_TQS_Individual_79958
+ceTaskId=AWqMXxqpKAidQLthTEGp
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWqMXxqpKAidQLthTEGp

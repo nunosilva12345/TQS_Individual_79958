@@ -1,14 +1,14 @@
 
-pcom.airhacks.individual.tqs.Cache#add(Ljava/lang/Object;Ljava/lang/Object;)Lcom/airhacks/individual/tqs/Element;Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Cache.javaE  E(#"1*‹
-1Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Cache.javaF< F(?—Œ
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Cache.javaF5 F(;&
-%0 com.airhacks.individual.tqs.Hash" com.airhacks.individual.tqs.Hash°
-û
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Cache.javaF1 F(G
+pcom.airhacks.individual.tqs.Cache#add(Ljava/lang/Object;Ljava/lang/Object;)Lcom/airhacks/individual/tqs/Element;à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Cache.javaE  E(#"1*î
+1à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Cache.javaF< F(?ÿ’
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Cache.javaF5 F(;&
+%0 com.airhacks.individual.tqs.Hash" com.airhacks.individual.tqs.Hash®
+•
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Cache.javaF1 F(G
 %1"Ncom.airhacks.individual.tqs.Hash#<init>(Ljava/lang/Object;Ljava/lang/Object;)V*(
 &
 %0 com.airhacks.individual.tqs.Hash*
@@ -17,34 +17,34 @@ wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\jav
 keyK*
 
 
-valueV◊‘
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Cache.javaF' F(0)
-%2#com.airhacks.individual.tqs.Element"#com.airhacks.individual.tqs.Element•
-¢
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Cache.javaF# F(H
+valueVﬁ€
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Cache.javaF' F(0)
+%2#com.airhacks.individual.tqs.Element"#com.airhacks.individual.tqs.Element¨
+©
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Cache.javaF# F(H
 %3"?com.airhacks.individual.tqs.Element#<init>(Ljava/lang/Object;)V*+
 )
 %2#com.airhacks.individual.tqs.Element*(
 &
-%0 com.airhacks.individual.tqs.HashÁ
-‰
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Cache.javaF F(I+
+%0 com.airhacks.individual.tqs.HashÓ
+Î
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Cache.javaF F(I+
 node#com.airhacks.individual.tqs.Element"__id*+
 )
-%2#com.airhacks.individual.tqs.Element∏
-µ
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Cache.javaG G(
+%2#com.airhacks.individual.tqs.Elementø
+º
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Cache.javaG G(
 
 %4void"Mcom.airhacks.individual.tqs.Cache#add(Lcom/airhacks/individual/tqs/Element;)V*%#
 !com.airhacks.individual.tqs.Cache*-
 +
-node#com.airhacks.individual.tqs.Element"≥
-Å
-wC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Cache.javaH H(-
+node#com.airhacks.individual.tqs.Element"∫
+à
+~C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Cache.javaH H(-
 +
 node#com.airhacks.individual.tqs.Element:
 keyK:

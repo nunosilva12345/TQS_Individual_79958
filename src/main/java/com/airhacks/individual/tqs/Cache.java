@@ -1,12 +1,10 @@
 package com.airhacks.individual.tqs;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 public class Cache<K, V> {
 
-    public static int DEFAULT_MAX_SIZE = 15;
+    public final static int DEFAULT_MAX_SIZE = 15;
 
     private HashMap<K, Element<Hash<K, V>>> map = new HashMap<>();
     private Element<Hash<K, V>> start, end;

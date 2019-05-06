@@ -1,89 +1,89 @@
 
-,com.airhacks.individual.tqs.Hash#hashCode()I€
-vC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Hash.java ("7*Ä
-2€
-vC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Hash.java9 (>Æ
-Ã
-€
-vC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Hash.java9 (>
+,com.airhacks.individual.tqs.Hash#hashCode()I‡
+}C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Hash.java ("7*à
+2‡
+}C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Hash.java9 (>Í
+Ê
+‡
+}C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Hash.java9 (>
 %9V"__id*/*-"
  com.airhacks.individual.tqs.Hash"
-valueÆÃ
-€
-vC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Hash.java9 (I	
+valueÍÊ
+‡
+}C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Hash.java9 (I	
 %8int"java.lang.Object#hashCode()I*	
 
 %9V2
-hashCode()¤
-¡
-€
-vC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Hash.java9 (I	
+hashCode()«
+¨
+‡
+}C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Hash.java9 (I	
 %6int"__id*
 	
 %8int*
-1*²
-3€
-vC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Hash.java5 (6¤
-¡
-€
-vC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Hash.java5 (6	
+1*À
+3‡
+}C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Hash.java5 (6«
+¨
+‡
+}C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Hash.java5 (6	
 %6int"__id*
 	
 %7int*
-1*×
-4€
-vC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Hash.java (FÆ
-Ã
-€
-vC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Hash.java$ ()
+1*å
+4‡
+}C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Hash.java (FÍ
+Ê
+‡
+}C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Hash.java$ ()
 %5V"__id*/*-"
  com.airhacks.individual.tqs.Hash"
 value*
 2
-3*Â
-5€
-vC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Hash.java7 (:Ä
-Á
-€
-vC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Hash.java7 (:
+3*Þ
+5‡
+}C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Hash.java7 (:Ë
+È
+‡
+}C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Hash.java7 (:
 %4K"__id*-*+"
  com.airhacks.individual.tqs.Hash"
-keyÆÃ
-€
-vC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Hash.java7 (E	
+keyÍÊ
+‡
+}C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Hash.java7 (E	
 %3int"java.lang.Object#hashCode()I*	
 
 %4K2
-hashCode()¤
-¡
-€
-vC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Hash.java7 (E	
+hashCode()«
+¨
+‡
+}C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Hash.java7 (E	
 %1int"__id*
 	
 %3int*
-4*²
-6€
-vC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Hash.java3 (4¤
-¡
-€
-vC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Hash.java3 (4	
+4*À
+6‡
+}C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Hash.java3 (4«
+¨
+‡
+}C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Hash.java3 (4	
 %1int"__id*
 	
 %2int*
-4*Õ
-7€
-vC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Hash.java (Ä
-Á
-€
-vC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Hash.java$ ('
+4*ã
+7‡
+}C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Hash.java (Ë
+È
+‡
+}C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Hash.java$ ('
 %0K"__id*-*+"
  com.airhacks.individual.tqs.Hash"
 key*
 5
-6*”
-1€
-vC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Hash.java (J"‹
-€
-vC:\Users\nunos\OneDrive\Documentos\NetBeansProjects\Individual-TQS\src\main\java\com\airhacks\individual\tqs\Hash.java (
+6*¢
+1‡
+}C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Hash.java (J"’
+‡
+}C:\Users\nunos\AppData\Local\GitHubDesktop\app-1.1.1\TQS_Individual_79958\src\main\java\com\airhacks\individual\tqs\Hash.java (
 ""B$"
  com.airhacks.individual.tqs.Hash
