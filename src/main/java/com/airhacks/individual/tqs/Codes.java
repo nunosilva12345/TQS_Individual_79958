@@ -1,10 +1,5 @@
 package com.airhacks.individual.tqs;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 /**
  *
@@ -17,6 +12,7 @@ public class Codes {
     private static String vento;
 
     public Codes() {
+        throw new UnsupportedOperationException();
     }
     
     public String getCidade(){
@@ -48,6 +44,9 @@ public class Codes {
                 break;
             case 4:
                 vento = "Muito Forte";
+                break;
+            default:
+                vento = "--";
                 break;
         }
         return vento;
@@ -144,6 +143,9 @@ public class Codes {
             case -99:
                 tempo = "--";
                 break;
+            default:
+                tempo = "--";
+                break;
         }
         return tempo;
     }
@@ -151,7 +153,6 @@ public class Codes {
     public static int returnCityCode(String y) {
         String finaleCidade = y.toUpperCase(); //para ser mais facil
         cidade = y;
-        System.out.println(y);
         int code = 0;
 
         switch (finaleCidade) {
@@ -241,6 +242,9 @@ public class Codes {
                 break;
             case "VILA DO CORVO":
                 code = 3490100;
+                break;
+            default:
+                code = 0;
                 break;
         }  
         return code;

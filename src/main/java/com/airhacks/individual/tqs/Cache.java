@@ -6,12 +6,13 @@ public class Cache<K, V> {
 
     public final static int DEFAULT_MAX_SIZE = 15;
 
-    private HashMap<K, Element<Hash<K, V>>> map = new HashMap<>();
-    private Element<Hash<K, V>> start, end;
-    private int CacheSize;
+    private HashMap<K, Element<Hash<K, V>>> mapa = new HashMap<>();
+    private Element<Hash<K, V>> start;
+    private Element<Hash<K, V>> end;
+    private int cacheSize;
 
-    public Cache(int CacheSize) {
-        this.CacheSize = CacheSize;
+    public Cache(int cacheSize) {
+        this.cacheSize = cacheSize;
     }
 
     public Cache() {
@@ -19,30 +20,30 @@ public class Cache<K, V> {
     }
     
     public void put(K key, V value) {
-        Element<Hash<K, V>> elem = map.get(key);
+        Element<Hash<K, V>> elem = mapa.get(key);
         if (elem != null) {
             elem.getValue().setValue(value);
             remove(elem);
             add(elem);
         } else {
-            if (map.size() >= CacheSize) {
-                remove(map.remove(start.getValue().getKey()));
+            if (mapa.size() >= cacheSize) {
+                remove(mapa.remove(start.getValue().getKey()));
             }
-            map.put(key, add(key, value));
+            mapa.put(key, add(key, value));
         }
     }
     
     public void remove(K key) {
-        Element<Hash<K, V>> elem = map.remove(key);
+        Element<Hash<K, V>> elem = mapa.remove(key);
         remove(elem);
     }
     
     public int size() {
-        return map.size();
+        return mapa.size();
     }
 
     public V get(K key) {
-        Element<Hash<K, V>> elem = map.get(key);
+        Element<Hash<K, V>> elem = mapa.get(key);
         if (elem != null) {
             remove(elem);
             add(elem);
@@ -88,7 +89,7 @@ public class Cache<K, V> {
 
     
     protected V raw(K key) {
-        Element<Hash<K, V>> node = map.get(key);
+        Element<Hash<K, V>> node = mapa.get(key);
         if (node != null) {
             return node.getValue().getValue();
         }
